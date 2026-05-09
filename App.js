@@ -3,7 +3,7 @@ import { View, FlatList, StyleSheet, Alert } from 'react-native';
 import { Text, TextInput, Button, Card, IconButton } from 'react-native-paper';
 import axios from 'axios';
 
-const API_URL = 'http://192.168.68.105:5001/tasks';
+const API_URL = 'http://192.168.31.198:5001/tasks';
 
 export default function App() {
   const [tasks, setTasks] = useState([]);
